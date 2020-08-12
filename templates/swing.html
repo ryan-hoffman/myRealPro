@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}
+
+<title>Swing</title>
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <h3>Jazz Tunes</h3>
+
+        <div class="btn-group-justified btn-group-sm btn-group-vertical">
+
+            <a href="{{ url_for('page') }}" class="btn btn-default" role="button">After You've Gone</a>
+
+            <!-- <a href="{{ url_for('static', filename='images/after_youve_gone.eps') }}"
+            class="btn btn-default" role="button">After You've Gone</a> -->
+
+            <a href="{{ url_for('static', filename='images/aint_misbehavin.eps') }}"
+            class="btn btn-default" role="button">Ain't Misbehavin'</a>
+
+            <a href="{{ url_for('static', filename='images/all_of_me.eps') }}"
+            class="btn btn-default" role="button">All of Me</a>
+
+            <a href="{{ url_for('static', filename='images/all_the_things_you_are.eps') }}"
+            class="btn btn-default" role="button">All the Things You Are</a>
+
+            <a href="{{ url_for('static', filename='images/anniversary_song.eps') }}"
+            class="btn btn-default" role="button">Anniversary Song</a>
+
+            <a href="{{ url_for('static', filename='images/autumn_leaves_c.eps') }}"
+            class="btn btn-default" role="button">Autumn Leaves C</a>
+
+            <a href="{{ url_for('static', filename='images/autumn_leaves_g.eps') }}"
+            class="btn btn-default" role="button">Autumn Leaves G</a>
+
+            <a href="{{ url_for('static', filename='images/beautiful_love.eps') }}"
+            class="btn btn-default" role="button">Beautiful Love</a>
+
+            <a href="{{ url_for('static', filename='images/bernies_tune.eps') }}"
+            class="btn btn-default" role="button">Bernie's Tune</a>
+
+            <a href="{{ url_for('static', filename='images/blues_clair.eps') }}"
+            class="btn btn-default" role="button">Blues Clair</a>
+
+            <a href="{{ url_for('static', filename='images/coquette.eps') }}"
+            class="btn btn-default" role="button">Coquette</a>
+
+            <a href="{{ url_for('static', filename='images/crazy.eps') }}"
+            class="btn btn-default" role="button">Crazy</a>
+
+            <a href="{{ url_for('static', filename='images/danse_norvegienne.eps') }}"
+            class="btn btn-default" role="button">Danse Norvegienne</a>
+
+            <a href="{{ url_for('static', filename='images/darn_that_dream.eps') }}"
+            class="btn btn-default" role="button">Darn That Dream</a>
+
+            <a href="{{ url_for('static', filename='images/djangology.eps') }}"
+            class="btn btn-default" role="button">Djangology</a>
+
+        </div>
+
+{% endblock %}

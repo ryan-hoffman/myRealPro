@@ -1,0 +1,12 @@
+h1{
+    color: black;
+    font-size: 40px;
+}
+
+body{
+    background: #fff3d1;
+}
+
+.content-container{
+    padding-top: 2rem;
+}
