@@ -1,6 +1,6 @@
 library(shiny)
 library(yaml)
-pictures <- yaml.load(readLines("pictures.yaml"))
+pictures <- yaml.load(readLines("/Users/rhoffman/code/python_misc/myRealPro/shinyVersions/simpleDemo/pictures.yaml"))
 
 
 ui = fluidPage(
