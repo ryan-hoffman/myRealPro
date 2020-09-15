@@ -2,8 +2,8 @@
 
 library(shiny)
 library(yaml)
+addResourcePath("www", "www")
 tunes <- yaml.load(readLines("tunes.yaml"))
-
 
 ui <- fluidPage(
   titlePanel("myRealPro"),
