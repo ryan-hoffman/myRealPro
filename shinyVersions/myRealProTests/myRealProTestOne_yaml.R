@@ -1,5 +1,3 @@
-# this code doesn't work
-
 library(shiny)
 library(yaml)
 addResourcePath("www", "www")
