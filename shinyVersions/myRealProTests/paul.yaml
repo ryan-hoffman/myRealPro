@@ -43,12 +43,12 @@ tunes:
  - name: Belfast Hornpipe
    url: www/belfast_hornpipe.jpg
    genre: Irish
-   timeSignature: 5/4
+   timeSignature: lilting 4/4
    
  - name: Garrett Barry's
    url: www/garrett_barrys.jpg
    genre: Irish
-   timeSignature: 5/4
+   timeSignature: lilting 4/4
      
  - name: After You've Gone
    url: www/after_youve_gone.jpg

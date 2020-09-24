@@ -35,7 +35,7 @@ ui <- fluidPage(
       selectInput(
         inputId = "hornpipeSelector",
         label = "Hornpipes",
-        choices = c("no selection", subset(tbl.config, genre=="Irish" & timeSignature=="5/4")$name),
+        choices = c("no selection", subset(tbl.config, genre=="Irish" & timeSignature=="lilting 4/4")$name),
         selected = NULL),
 
       selectInput(
