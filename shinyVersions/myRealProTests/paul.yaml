@@ -10,9 +10,14 @@ tunes:
    genre: Irish
    timeSignature: 4/4
 
- - name: After You've Gone
-   url: www/after_youve_gone.jpg
-   genre: swing
+ - name: Mulqueen's
+   url: www/mulqueens.jpg
+   genre: Irish
+   timeSignature: 4/4
+   
+ - name: Traveler's
+   url: www/travelers.jpg
+   genre: Irish
    timeSignature: 4/4
 
  - name: Blarney Pilgrim
@@ -34,6 +39,16 @@ tunes:
    url: www/leitrim_fancy.jpg
    genre: Irish
    timeSignature: 6/8
+   
+ - name: Belfast Hornpipe
+   url: www/belfast_hornpipe.jpg
+   genre: Irish
+   timeSignature: 5/4
+   
+ - name: Garrett Barry's
+   url: www/garrett_barrys.jpg
+   genre: Irish
+   timeSignature: 5/4
      
  - name: After You've Gone
    url: www/after_youve_gone.jpg

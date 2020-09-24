@@ -31,6 +31,12 @@ ui <- fluidPage(
         label = "Jigs",
         choices = c("no selection", subset(tbl.config, genre=="Irish" & timeSignature=="6/8")$name),
         selected = NULL),
+      
+      selectInput(
+        inputId = "hornpipeSelector",
+        label = "Hornpipes",
+        choices = c("no selection", subset(tbl.config, genre=="Irish" & timeSignature=="5/4")$name),
+        selected = NULL),
 
       selectInput(
         inputId = "swingSelector",
@@ -48,6 +54,7 @@ ui <- fluidPage(
     mainPanel(
       uiOutput("reelOutput"),
       uiOutput("jigOutput"),
+      uiOutput("hornpipeOutput"),
       uiOutput("swingOutput"),
       uiOutput("latinOutput")
     ) # m
@@ -73,6 +80,15 @@ server <- function(input, output, session){
        tags$img(src=tuneURL, width=500)
        }
      })
+  
+  output$hornpipeOutput <- renderUI({
+    tuneName <- input$hornpipeSelector
+    print("hornpipeOutput triggered")
+    if(tuneName != "no selection"){
+      tuneURL <- subset(tbl.config, name==tuneName)$url
+      tags$img(src=tuneURL, width=500)
+    }
+  })
 
   output$swingOutput <- renderUI({
      tuneName <- input$swingSelector
